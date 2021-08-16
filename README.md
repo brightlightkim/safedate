@@ -8,4 +8,15 @@ It will also have some features for the victims to recognize what they experienc
 
 I will work this app with the advices from Korea Sexual Violence Relief Center.
 
-This is my first project. 
+The plans for making this application are these:
+
+1. Make a webpage of stop abuse.
+2. Make an android application of stop abuse.
+3. Make an iOS application of stop abuse.
+
+The expected duration for those plans are these:
+
+1. Webpage by 31st of October, 2021.
+2. Android Application by 31st of December, 2021.
+3. iOS Application by 21st of February, 2021.
+
