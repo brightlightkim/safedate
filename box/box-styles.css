@@ -33,4 +33,9 @@ div {
   
   width: 200px;
   box-sizing: border-box;  /* Add this */
+  margin: 20px auto; /* Vertical  Horizontal */
+}
+
+body {
+  text-align: center;
 }
