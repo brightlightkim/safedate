@@ -3,5 +3,6 @@ h1, p {
 }
 
 em, strong {
-  background-color: #B2D6FF;    /* Light blue */
+  background-color: #B2D6FF;
+  display: inline;             /* This is the default for em and strong */
 }
