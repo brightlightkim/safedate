@@ -30,5 +30,7 @@ div {
   text-align: center;
   border: 2px solid #5D6063;
   border-radius: 5px;
+  
   width: 200px;
+  box-sizing: border-box;  /* Add this */
 }
