@@ -4,8 +4,20 @@ h1, p {
 h1 {
   padding: 50px;
   border: 1px solid #5D6063;
+  margin-bottom: 30px;
 }
 em, strong {
   background-color: #B2D6FF;
   display: inline;             /* This is the default for em and strong */
+}
+
+strong {
+  margin: 50px;
+}
+
+p {
+  padding: 20px 0 20px 10px;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
