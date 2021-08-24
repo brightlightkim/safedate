@@ -44,3 +44,11 @@ a:hover {
 a:active {
   color: red;
 }
+
+a:visited:hover {
+  color: orange;
+}
+
+a:visited:active {
+  color: red;
+}
