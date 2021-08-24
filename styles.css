@@ -17,14 +17,6 @@ h2 {
   font-size: 1.6em;
 }
 
-ul {
-  list-style-type: circle;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
 a {
   text-decoration: none;/* remove underline*/
 }
@@ -32,3 +24,50 @@ a {
 p {
   text-align: left;
 }
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title_name{
+  font-size: 60px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+  padding: 50px;
+}
+
