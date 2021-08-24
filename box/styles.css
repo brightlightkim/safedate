@@ -23,6 +23,11 @@
   width: 200px;
   margin: 20px auto;
 }
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
 
 .page {
   width: 600px;
