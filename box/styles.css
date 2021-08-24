@@ -90,3 +90,7 @@ a:visited:active {
 .page > p:last-of-type {
   margin-bottom: 50px;
 }
+
+#button-2 {
+  color: #5D6063;  /* Dark gray */
+}
