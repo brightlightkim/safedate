@@ -28,6 +28,11 @@
   color: #FFF;
   background-color: #76AEED;  /* Light blue */
 }
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
 
 .page {
   width: 600px;
