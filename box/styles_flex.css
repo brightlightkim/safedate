@@ -15,6 +15,36 @@
 .menu {
   border: 1px solid #fff;  /* For debugging */
   width: 900px;
-  
+  display: flex;
+  justify-content: space-around;
 }
 
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;    /* Change this */
+}
+
+.social,
+.logo,
+.subscribe {
+  border: 1px solid #5995DA;
+}
