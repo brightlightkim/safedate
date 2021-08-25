@@ -53,6 +53,9 @@
   display: flex;
   justify-content: center;    /* Change this */
   flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;  /* <--- Really freaking cool! */
+  align-items: center;      /* Add this */
 }
 
 .photo-grid-item {
