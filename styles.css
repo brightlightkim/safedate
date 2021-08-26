@@ -33,7 +33,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #fc5f53;
 }
 
 li {
@@ -46,6 +46,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 li a:hover {
@@ -53,7 +54,7 @@ li a:hover {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #ff3324;
 }
 
 * {
@@ -73,5 +74,5 @@ li a:hover {
 
 #color_text{
   color: blueviolet;
-  
+
 }
