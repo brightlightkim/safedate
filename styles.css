@@ -118,11 +118,6 @@ li a:hover {
   align-items: center;      /* Add this */
 }
 
-.photo-grid-item {
-  width: 300px;
-  height: 300px;
-}
-
 #sexual_abuse_poster {
   width: 354px;
   height: 497px;
@@ -215,5 +210,13 @@ img {
 }
 
 @media only screen and (max-width:400px) {
-  
+  .content_grid{
+    width: 100%;
+  }
+  .item_container_grid {
+    width: 100%;
+  }
+  .photo-grid-item {
+    width: 
+  }
 }
