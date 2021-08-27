@@ -82,3 +82,8 @@ li a:hover {
   display: flex;
   justify-content: center;
 }
+
+.page{
+  width: 900px;
+  justify-content: center;
+}
