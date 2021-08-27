@@ -83,7 +83,22 @@ li a:hover {
   justify-content: center;
 }
 
-.page{
-  width: 900px;
+.page {
+  display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.content_grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;  /* <--- Really freaking cool! */
+  align-items: center;
+}
+
+.float {
+  float: left;
 }
