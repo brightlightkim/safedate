@@ -103,12 +103,12 @@ li a:hover {
   align-items: center;
 }
 
-.photo-grid-container {
+.item_container {
   display: flex;
   justify-content: center;
 }
 
-.photo-grid {
+.item_container_grid {
   width: 1000px;
   display: flex;
   justify-content: center;    /* Change this */
@@ -162,6 +162,23 @@ li a:hover {
   vertical-align: middle;
 }
 
+#domestic_violence_text {
+  width: 500px;
+  height: 615px;
+  display: table;  
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+#domestic_violence_text p {
+  font-size: 2.2em;
+  padding: 10px;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .click_box {
   width: 1000px;
   height: 100px;
@@ -190,4 +207,13 @@ li a:hover {
 
 .click_box_button a:hover {
   background-color: white;
+}
+
+img {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+@media only screen and (max-width:400px) {
+  
 }
