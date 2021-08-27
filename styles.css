@@ -209,48 +209,6 @@ img {
   padding: 0px;
 }
 
-@media only screen and (max-width:200px) {
-  .content_grid{
-    width: 100%;
-  }
-  .item_container_grid {
-    width: 100%;
-  }
-  .display_image img{
-    width: 100%;
-  }
-  #sexual_abuse_poster {
-    width: 100%;
-  }
-  #sexual_abuse_text {
-    width: 100%;
-    height: auto;
-  }
-  #sexual_abuse_text p {
-    font-size: 1.1em;
-  }
-  #school_violence_text {
-    width: 100%;
-    height: auto;
-  }
-   #school_violence_text p{
-     font-size: 1.1em;
-   }
-   #domestic_violence_text {
-     width: 100%;
-     height: auto;
-   }
-   #domestic_violence_text p {
-     font-size: 1.1em;
-   }
-   .click_box {
-     width: 100%;
-   }
-   .click_box_button {
-     width: 33%;
-   }   
-}
-
 @media only screen and (max-width:400px) {
   .content_grid{
     width: 100%;
@@ -293,49 +251,7 @@ img {
    }   
 }
 
-@media only screen and (max-width:600px) {
-  .content_grid{
-    width: 100%;
-  }
-  .item_container_grid {
-    width: 100%;
-  }
-  .display_image img{
-    width: 100%;
-  }
-  #sexual_abuse_poster {
-    width: 100%;
-  }
-  #sexual_abuse_text {
-    width: 100%;
-    height: auto;
-  }
-  #sexual_abuse_text p {
-    font-size: 1.1em;
-  }
-  #school_violence_text {
-    width: 100%;
-    height: auto;
-  }
-   #school_violence_text p{
-     font-size: 1.1em;
-   }
-   #domestic_violence_text {
-     width: 100%;
-     height: auto;
-   }
-   #domestic_violence_text p {
-     font-size: 1.1em;
-   }
-   .click_box {
-     width: 100%;
-   }
-   .click_box_button {
-     width: 33%;
-   }   
-}
-
-@media only screen and (max-width:800px) {
+@media only screen and (min-width: 401px) and (max-width:1000px) {
   .content_grid{
     width: 100%;
   }
@@ -350,21 +266,18 @@ img {
   }
   #sexual_abuse_text {
     width: 50%;
-    height: auto;
   }
   #sexual_abuse_text p {
     font-size: 1.1em;
   }
   #school_violence_text {
     width: 50%;
-    height: auto;
   }
    #school_violence_text p{
      font-size: 1.1em;
    }
    #domestic_violence_text {
      width: 50%;
-     height: auto;
    }
    #domestic_violence_text p {
      font-size: 1.1em;
@@ -377,6 +290,6 @@ img {
    }   
 }
 
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:1001px) {
   
 }
