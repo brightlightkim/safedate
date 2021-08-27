@@ -105,7 +105,7 @@ li a:hover {
 }
 
 .photo-grid {
-  width: 900px;
+  width: 1000px;
   display: flex;
   justify-content: center;    /* Change this */
   flex-wrap: wrap;
@@ -115,7 +115,58 @@ li a:hover {
 }
 
 .photo-grid-item {
-  border: 1px solid #fff;
   width: 300px;
   height: 300px;
+}
+
+#sexual_abuse_poster {
+  width: 354px;
+  height: 497px;
+}
+
+#sexual_abuse_text {
+  width: 646px;
+  height: 497px;
+  margin: 0 auto;
+  display: table;  
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+#sexual_abuse_text p {
+  font-size: 2.2em;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.click_box {
+  width: 1000px;
+  height: 100px;
+  background-color: #d10037;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.click_box_button{
+  display: table;
+  width: 250px;
+  height: 60px;
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+.click_box_button a {
+  font-size: 1.4em;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #d10037;
+}
+
+.click_box_button a:hover {
+  background-color: white;
 }
