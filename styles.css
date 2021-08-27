@@ -216,7 +216,17 @@ img {
   .item_container_grid {
     width: 100%;
   }
-  .photo-grid-item {
-    width: 
+  .display_image img{
+    width: 100%;
+  }
+  #sexual_abuse_poster {
+    width: 100%;
+  }
+  #sexual_abuse_text {
+    width: 100%;
+    height: auto;
+  }
+  #sexual_abuse_text p {
+    font-size: 1.1em;
   }
 }
