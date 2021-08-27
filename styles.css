@@ -30,15 +30,14 @@ ul {
   position: sticky;
   top: 0;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #fc5f53;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 li {
   float: left;
+  display: inline;
 }
 
 li a {
@@ -56,6 +55,7 @@ li a:hover {
 
 .active {
   background-color: #ff3324;
+  float: right;
 }
 
 * {
