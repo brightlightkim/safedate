@@ -83,6 +83,10 @@ li a:hover {
   justify-content: center;
 }
 
+.display_image img{
+  width: 500px;
+}
+
 .page {
   display: flex;
   align-items: center;
@@ -135,6 +139,23 @@ li a:hover {
 
 #sexual_abuse_text p {
   font-size: 2.2em;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#school_violence_text {
+  width: 500px;
+  height: 757px;
+  display: table;  
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+#school_violence_text p {
+  font-size: 2.2em;
+  padding: 10px;
   font-weight: bold;
   display: table-cell;
   text-align: center;
