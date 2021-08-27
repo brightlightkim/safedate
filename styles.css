@@ -229,4 +229,25 @@ img {
   #sexual_abuse_text p {
     font-size: 1.1em;
   }
+  #school_violence_text {
+    width: 100%;
+    height: auto;
+  }
+   #school_violence_text p{
+     font-size: 1.1em;
+   }
+   #domestic_violence_text {
+     width: 100%;
+     height: auto;
+   }
+   #domestic_violence_text p {
+     font-size: 1.1em;
+   }
+   .click_box {
+     width: 100%;
+   }
+   .click_box_button {
+     width: 33%;
+   }   
+
 }
