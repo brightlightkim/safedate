@@ -8,6 +8,14 @@
   background-color: #f0483c !important;
 }
 
+.dropdown-menu {
+  background-color: #f0483c;
+}
+
+.dropdown-item {
+  color: white;
+}
+
 body {
   color: #414141;
   background-color: #ffcfcc;
