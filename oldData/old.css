@@ -27,8 +27,45 @@ h2 {
   font-size: 1.6em;
 }
 
+a {
+  text-decoration: none;/* remove underline*/
+}
+
 p {
   text-align: left;
+}
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #fc5f53;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #ff4d40;
+}
+
+.active {
+  background-color: #ff3324;
+  float: right;
 }
 
 .title_name{
