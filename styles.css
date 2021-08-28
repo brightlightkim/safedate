@@ -106,6 +106,8 @@ li a:hover {
 .item_container {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .item_container_grid {
@@ -256,10 +258,10 @@ img {
     width: 100%;
   }
   .item_container_grid {
-    width: 100%;
+    width: 50%;
   }
   .display_image img{
-    width: 100%;
+    width: 50%;
   }
   #sexual_abuse_poster {
     width: 50%;
