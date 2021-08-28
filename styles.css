@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-dark {
+  background-color: #f0483c !important;
+}
+
 body {
   color: #414141;
   background-color: #ffcfcc;
@@ -56,12 +66,6 @@ li a:hover {
 .active {
   background-color: #ff3324;
   float: right;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .title_name{
