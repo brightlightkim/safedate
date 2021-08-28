@@ -12,6 +12,12 @@
   background-color: #f0483c;
 }
 
+.my-sm-0 {
+  color: #f0483c;
+  border-color: white;
+  background-color: white;
+}
+
 .dropdown-item {
   color: white;
 }
