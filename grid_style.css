@@ -6,8 +6,11 @@
 
 @font-face { font-family: 'YanoljaYacheR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff'); font-weight: normal; font-style: normal; }
 
+.navbar{
+    position: fixed;
+    width: 100%;
+}
 body{
-    
     align-items: center;
     justify-content: center;
     background-color: #fff7f7;
@@ -35,21 +38,28 @@ body{
 .dropdown-item {
   color: white;
 }
-
+h1 h2 h3 h4 h5 p {
+    margin: 10px;
+}
 .imageFile{
     text-align: center;
 }
 
 .imageFile img{
+    padding-top: 70px;
     width: 100%;
     max-width: 1000px;
 }
 
+
+.wrapper_text{
+    display: flex;
+    justify-content: center;
+}
+
 .editor{
     width: 1200px;
-    border-style: solid;
-    border-color: #f0483c;
-    border-width: 3px;
+    padding: 30px;
 }
 
 h3{
@@ -276,7 +286,7 @@ h3{
 
 #LastPage img{
     width: auto;
-    height: 194px;
+    height: 200px;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -290,9 +300,6 @@ h3{
 	grid-column-end: 6;
 	grid-row-start: 6;
 	grid-row-end: 7; 
-    border-style: solid;
-    border-color: #f0483c;
-    border-width: 3px;
 }
 
 #LastPageText a{

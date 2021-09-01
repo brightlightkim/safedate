@@ -16,14 +16,11 @@
 	grid-column-end: 3;
 	grid-row-start: 4;
 	grid-row-end: 5; 
-    border-style: solid;
-    border-color: #f0483c;
-    border-width: 3px;
 }
 
 #LastPage img{
     width: auto;
-    height: 194px;
+    height: 200px;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -36,10 +33,6 @@
     grid-column-start: 3;
 	grid-column-end: 6;
 	grid-row-start: 4;
-	grid-row-end: 5; 
-    border-style: solid;
-    border-color: #f0483c;
-    border-width: 3px;
 }
 
 #LastPageText a{
