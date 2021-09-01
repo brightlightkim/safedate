@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@font-face { font-family: 'YanoljaYacheR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 .bg-dark {
   background-color: #f0483c !important;
 }
@@ -26,11 +28,13 @@ body {
   color: #414141;
   background-color: #ffcfcc;
   font-size: 18px;
+  font-family: 'YanoljaYacheR';
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: 'YanoljaYacheR';
   font-weight: normal;
+  
 }
 
 h1 {
