@@ -50,6 +50,14 @@ h1 h2 h3 h4 h5 p {
     width: 100%;
     max-width: 1000px;
 }
+.imageFile_normal{
+    text-align: center;
+}
+
+.imageFile_normal img{
+    width: 100%;
+    max-width: 1000px;
+}
 
 
 .wrapper_text{
