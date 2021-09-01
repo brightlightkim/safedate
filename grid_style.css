@@ -38,14 +38,33 @@ body{
     text-align: center;
 }
 
+.imageFile img{
+    width: 100%;
+    max-width: 1000px;
+}
+
 .grid_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
     place-items: center;
 }
 
 .item{
     text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    width: auto;
+    height: 200px;
+}
+
+#SafeTips{
+    display: table;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2; 
 }
