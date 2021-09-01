@@ -45,6 +45,18 @@ body{
     max-width: 1000px;
 }
 
+.editor{
+    width: 1200px;
+    border-style: solid;
+    border-color: #f0483c;
+    border-width: 3px;
+}
+
+h3{
+    color: #f0483c;
+    text-shadow: 5px 5px 5px wheat;
+}
+
 .wrapper{
     display: flex;
     justify-content: center;
@@ -257,11 +269,14 @@ body{
 	grid-column-end: 3;
 	grid-row-start: 6;
 	grid-row-end: 7; 
+    border-style: solid;
+    border-color: #f0483c;
+    border-width: 3px;
 }
 
 #LastPage img{
     width: auto;
-    height: 200px;
+    height: 194px;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -275,6 +290,9 @@ body{
 	grid-column-end: 6;
 	grid-row-start: 6;
 	grid-row-end: 7; 
+    border-style: solid;
+    border-color: #f0483c;
+    border-width: 3px;
 }
 
 #LastPageText a{
