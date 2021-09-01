@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: 'YanoljaYacheR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: #fff7f7;
+}
+
+.bg-dark {
+  background-color: #f0483c !important;
+}
+
+.dropdown-menu {
+  background-color: #f0483c;
+}
+
+.my-sm-0 {
+  color: #f0483c;
+  border-color: white;
+  background-color: white;
+}
+
+.dropdown-item {
+  color: white;
+}
