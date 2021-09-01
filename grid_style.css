@@ -132,7 +132,7 @@ body{
     vertical-align: middle;
 }
 
-#SafeTips{
+#GotHarmed{
     display: table;
     width: 100%;
     height: 200px;
@@ -140,17 +140,17 @@ body{
     color: white;
     grid-column-start: 1;
 	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2; 
+	grid-row-start: 3;
+	grid-row-end: 4; 
 }
 
-#SafeTips p{
+#GotHarmed p{
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
 
-#SafeTipsText{
+#GotHarmedText{
     display: table;
     width: 100%;
     height: 200px;
@@ -159,11 +159,49 @@ body{
     border-width: 3px;
     grid-column-start:3;
 	grid-column-end: 6;
-	grid-row-start: 1;
-	grid-row-end: 2; 
+	grid-row-start: 3;
+	grid-row-end: 4; 
 }
-#SafeTipsText a{
+#GotHarmedText a{
     color:#f0483c;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ToAttackers{
+    display: table;
+    width: 100%;
+    height: 200px;
+    background-color: #f0483c;
+    color: white;
+    grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 5; 
+}
+
+#ToAttackers p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ToAttackersText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #f0483c;
+    border-width: 3px;
+    grid-column-start:1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5; 
+}
+
+#ToAttackersText a{
+    color: #f0483c;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
