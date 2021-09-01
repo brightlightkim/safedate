@@ -7,11 +7,13 @@
 @font-face { font-family: 'YanoljaYacheR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 body{
+    
     align-items: center;
     justify-content: center;
     background-color: #fff7f7;
     font-family: 'YanoljaYacheR';
     font-size: 20px;
+    margin: 0 auto;
 }
 
 .bg-dark {
@@ -30,4 +32,14 @@ body{
 
 .dropdown-item {
   color: white;
+}
+
+.imageFile{
+    text-align: center;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
