@@ -43,28 +43,51 @@ body{
     max-width: 1000px;
 }
 
-.grid_container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
-    place-items: center;
+.wrapper{
+    display: flex;
+    justify-content: center;
 }
 
-.item{
-    text-align: center;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-
-    width: auto;
-    height: 200px;
+.grid_container{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    place-items: center;
 }
 
 #SafeTips{
     display: table;
+    width: 100%;
+    height: 200px;
+    background-color: #ffc4d4;
+    color: #d10037;
     grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 2; 
+}
+
+#SafeTips p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#SafeTipsText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-color: #d10037;
+    border-width: 3px;
+    color: #d10037;
+    grid-column-start:3;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2; 
+}
+#SafeTipsText a{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
