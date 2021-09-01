@@ -10,8 +10,10 @@
     display: table;
     width: 100%;
     height: 200px;
-    background-color: #f0483c;
-    color: white;
+    padding: 10px;
+    font-size: 28px;
+    background-color: #ace2ff;
+    color: black;
     grid-column-start: 4;
 	grid-column-end: 6;
 	grid-row-start: 6;
@@ -29,7 +31,7 @@
     width: 100%;
     height: 200px;
     border-style: solid;
-    border-color: #f0483c;
+    border-color: #ace2ff;
     border-width: 3px;
     grid-column-start:1;
 	grid-column-end: 4;
@@ -38,7 +40,7 @@
 }
 
 #SixthPageText a{
-    color: #f0483c;
+    color: black;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -48,8 +50,10 @@
     display: table;
     width: 100%;
     height: 200px;
-    background-color: #f0483c;
-    color: white;
+    padding: 10px;
+    font-size: 28px;
+    background-color: #ffbeb9;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 7;
@@ -67,7 +71,7 @@
     width: 100%;
     height: 200px;
     border-style: solid;
-    border-color: #f0483c;
+    border-color: #ffbeb9;
     border-width: 3px;
     grid-column-start:3;
     grid-column-end: 6;
@@ -75,7 +79,7 @@
     grid-row-end: 8; 
 }
 #SeventhPageText a{
-    color:#f0483c;
+    color:black;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -86,8 +90,10 @@
     display: table;
     width: 100%;
     height: 200px;
-    background-color: #f0483c;
-    color: white;
+    padding: 10px;
+    font-size: 28px;
+    background-color: #ace2ff;
+    color: black;
     grid-column-start: 4;
 	grid-column-end: 6;
 	grid-row-start: 8;
@@ -105,7 +111,7 @@
     width: 100%;
     height: 200px;
     border-style: solid;
-    border-color: #f0483c;
+    border-color: #ace2ff;
     border-width: 3px;
     grid-column-start:1;
 	grid-column-end: 4;
@@ -114,7 +120,7 @@
 }
 
 #EighthPageText a{
-    color: #f0483c;
+    color: black;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -151,7 +157,7 @@
 }
 
 #LastPageText a{
-    color:#f0483c;
+    color:black;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
