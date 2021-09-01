@@ -67,6 +67,11 @@ h3{
     text-shadow: 5px 5px 5px wheat;
 }
 
+h4{
+    color: #f06f3c;
+    text-shadow: 5px 5px 5px wheat;
+}
+
 .wrapper{
     display: flex;
     justify-content: center;
