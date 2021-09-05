@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: 'YanoljaYacheR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.bg-dark {
+  background-color: #f0483c !important;
+}
+
+.dropdown-menu {
+  background-color: #f0483c;
+}
+
+.my-sm-0 {
+  color: #f0483c;
+  border-color: white;
+  background-color: white;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+body {
+  color: #414141;
+  background-color: #ffcfcc;
+  font-size: 18px;
+  font-family: 'YanoljaYacheR';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'YanoljaYacheR';
+  font-weight: normal;
+  
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p {
+  text-align: left;
+}
+
+.title_name{
+  font-size: 60px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+  padding: 50px;
+}
+
+#color_text{
+  color: blueviolet;
+
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.display_image img{
+  width: 500px;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;  /* <--- Really freaking cool! */
+  align-items: center;
+}
+
+.item_container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.item_container_grid {
+  width: 1000px;
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;  /* <--- Really freaking cool! */
+  align-items: center;      /* Add this */
+}
+
+#sexual_abuse_poster {
+  width: 354px;
+  height: 497px;
+}
+
+#sexual_abuse_text {
+  width: 646px;
+  height: 497px;
+  margin: 0 auto;
+  display: table;  
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+#sexual_abuse_text p {
+  font-size: 2.2em;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#school_violence_text {
+  width: 500px;
+  height: 757px;
+  display: table;  
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+#school_violence_text p {
+  font-size: 2.2em;
+  padding: 10px;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#domestic_violence_text {
+  width: 500px;
+  height: 615px;
+  display: table;  
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+#domestic_violence_text p {
+  font-size: 2.2em;
+  padding: 10px;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.click_box {
+  width: 1000px;
+  height: 100px;
+  background-color: #d10037;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.click_box_button{
+  display: table;
+  width: 250px;
+  height: 60px;
+  background-color: #ffc4d4;
+  color: #d10037;
+}
+
+.click_box_button a {
+  font-size: 1.4em;
+  font-weight: bold;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #d10037;
+}
+
+.click_box_button a:hover {
+  background-color: white;
+}
+
+img {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+@media only screen and (max-width:400px) {
+  .content_grid{
+    width: 100%;
+  }
+  .item_container_grid {
+    width: 100%;
+  }
+  .display_image img{
+    width: 100%;
+  }
+  #sexual_abuse_poster {
+    width: 100%;
+  }
+  #sexual_abuse_text {
+    width: 100%;
+    height: auto;
+  }
+  #sexual_abuse_text p {
+    font-size: 1.1em;
+  }
+  #school_violence_text {
+    width: 100%;
+    height: auto;
+  }
+   #school_violence_text p{
+     font-size: 1.1em;
+   }
+   #domestic_violence_text {
+     width: 100%;
+     height: auto;
+   }
+   #domestic_violence_text p {
+     font-size: 1.1em;
+   }
+   .click_box {
+     width: 100%;
+   }
+   .click_box_button {
+     width: 33%;
+   }   
+}
+
+@media only screen and (min-width: 401px) and (max-width:1000px) {
+  .content_grid{
+    width: 100%;
+  }
+  .item_container_grid {
+    width: 50%;
+  }
+  .display_image img{
+    width: 50%;
+  }
+  #sexual_abuse_poster {
+    width: 50%;
+  }
+  #sexual_abuse_text {
+    width: 50%;
+  }
+  #sexual_abuse_text p {
+    font-size: 1.1em;
+  }
+  #school_violence_text {
+    width: 50%;
+  }
+   #school_violence_text p{
+     font-size: 1.1em;
+   }
+   #domestic_violence_text {
+     width: 50%;
+   }
+   #domestic_violence_text p {
+     font-size: 1.1em;
+   }
+   .click_box {
+     width: 100%;
+   }
+   .click_box_button {
+     width: 33%;
+   }   
+}
+
+@media only screen and (min-width:1001px) {
+  
+}

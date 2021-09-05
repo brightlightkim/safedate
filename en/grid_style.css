@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: 'YanoljaYacheR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: #fff7f7;
+    font-family: 'YanoljaYacheR';
+    font-size: 20px;
+    margin: 0 auto;
+}
+.nav-item {
+    color: white !important;
+}
+.bg-dark {
+  background-color: #f0483c !important;
+}
+
+.dropdown-menu {
+  background-color: #f0483c;
+}
+
+.my-sm-0 {
+  color: #f0483c;
+  border-color: white;
+  background-color: white;
+}
+
+.dropdown-item {
+  color: white;
+}
+h1 h2 h3 h4 h5 p {
+    margin: 10px;
+}
+.imageFile{
+    text-align: center;
+}
+
+.imageFile img{
+    padding-top: 70px;
+    width: 100%;
+    max-width: 1000px;
+}
+.imageFile_normal{
+    text-align: center;
+}
+
+.imageFile_normal img{
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.wrapper_text{
+    display: flex;
+    justify-content: center;
+}
+
+.editor{
+    width: 1000px;
+    padding: 30px;
+}
+
+h3{
+    color: #f0483c;
+    text-shadow: 5px 5px 5px wheat;
+}
+
+h4{
+    color: #f06f3c;
+    text-shadow: 5px 5px 5px wheat;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.grid_container{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    place-items: center;
+}
+
+#SafeTips{
+    display: table;
+    width: 100%;
+    height: 200px;
+    font-size: 24px;
+    background-color: #ffbeb9;
+    color: black;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2; 
+}
+
+#SafeTips p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#SafeTipsText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ffbeb9;
+    border-width: 3px;
+    grid-column-start:3;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2; 
+}
+#SafeTipsText a{
+    color:black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#InDanger{
+    display: table;
+    width: 100%;
+    height: 200px;
+    font-size: 24px;
+    background-color: #ace2ff;
+    color: black;
+    grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 3; 
+}
+
+#InDanger p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#InDangerText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ace2ff;
+    border-width: 3px;
+    grid-column-start:1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3; 
+}
+
+#InDangerText a{
+    color: black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#GotHarmed{
+    display: table;
+    width: 100%;
+    height: 200px;
+    font-size: 24px;
+    background-color: #ffbeb9;
+    color: black;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4; 
+}
+
+#GotHarmed p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#GotHarmedText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ffbeb9;
+    border-width: 3px;
+    grid-column-start:3;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 4; 
+}
+#GotHarmedText a{
+    color:black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ToAttackers{
+    display: table;
+    width: 100%;
+    height: 200px;
+    font-size: 24px;
+    background-color: #ace2ff;
+    color: black;
+    grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 5; 
+}
+
+#ToAttackers p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ToAttackersText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ace2ff;
+    border-width: 3px;
+    grid-column-start:1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5; 
+}
+
+#ToAttackersText a{
+    color: black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ForVictims{
+    display: table;
+    width: 100%;
+    height: 200px;
+    font-size: 24px;
+    background-color: #ffbeb9;
+    color: black;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 6; 
+}
+
+#ForVictims p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ForVictimsText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ffbeb9;
+    border-width: 3px;
+    grid-column-start:3;
+	grid-column-end: 6;
+	grid-row-start: 5;
+	grid-row-end: 6; 
+}
+
+#ForVictimsText a{
+    color:black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#LastPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 6;
+	grid-row-end: 7;
+}
+
+#LastPage img{
+    width: auto;
+    height: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#LastPageText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 6;
+	grid-row-end: 7; 
+}
+
+#LastPageText a{
+    color:black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footer { 
+    position: fixed; 
+    bottom: 0; 
+    height: 50px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c66f0;
+    color: white;
+}
+
+#footer a{
+    color: white;
+}
+
+#arrow {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#arrow:hover {
+  top: -10px;
+}

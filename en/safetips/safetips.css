@@ -1,0 +1,43 @@
+.grid_container{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+
+#LastPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 5; 
+}
+
+#LastPage img{
+    width: auto;
+    height: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#LastPageText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 4;
+}
+
+#LastPageText a{
+    color:black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}

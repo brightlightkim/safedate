@@ -1,0 +1,164 @@
+.grid_container{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    place-items: center;
+}
+
+#SixthPage{
+    display: table;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ace2ff;
+    color: black;
+    grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 6;
+	grid-row-end: 7; 
+}
+
+#SixthPage p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#SixthPageText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ace2ff;
+    border-width: 3px;
+    grid-column-start:1;
+	grid-column-end: 4;
+	grid-row-start: 6;
+	grid-row-end: 7; 
+}
+
+#SixthPageText a{
+    color: black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#SeventhPage{
+    display: table;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ffbeb9;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8; 
+}
+
+#SeventhPage p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#SeventhPageText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ffbeb9;
+    border-width: 3px;
+    grid-column-start:3;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8; 
+}
+#SeventhPageText a{
+    color:black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#EighthPage{
+    display: table;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ace2ff;
+    color: black;
+    grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 8;
+	grid-row-end: 9; 
+}
+
+#EighthPage p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#EighthPageText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-color: #ace2ff;
+    border-width: 3px;
+    grid-column-start:1;
+	grid-column-end: 4;
+	grid-row-start: 8;
+	grid-row-end: 9; 
+}
+
+#EighthPageText a{
+    color: black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#LastPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 11; 
+}
+
+#LastPage img{
+    width: auto;
+    height: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#LastPageText{
+    display: table;
+    width: 100%;
+    height: 200px;
+    grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 10;
+    grid-row-end: 11;
+}
+
+#LastPageText a{
+    color:black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
