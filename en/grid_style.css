@@ -27,9 +27,8 @@ button.firstBtn:focus{
 .nav-item {
     color: white !important;
 }
-.bg-dark {
+.bg-primary {
   background-color: #f0483c !important;
-  border: 0;
 }
 
 .dropdown-menu {
