@@ -19,9 +19,9 @@ body{
     margin: 0 auto;
 }
 
-.button{
-    border: 0;
-    outline: 0;
+button.firstBtn:focus{ 	
+    border: none;
+    outline:none;
 }
 
 .nav-item {
