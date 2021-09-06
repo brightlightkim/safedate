@@ -29,6 +29,7 @@ button.firstBtn:focus{
 }
 .bg-dark {
   background-color: #f0483c !important;
+  border: 0;
 }
 
 .dropdown-menu {
