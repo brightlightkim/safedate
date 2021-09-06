@@ -348,3 +348,11 @@ h4{
 #arrow:hover {
   top: -10px;
 }
+
+#upperPadding {
+    padding-top: 80px;
+}
+
+#lowerPadding {
+    padding-bottom: 70px;
+}
