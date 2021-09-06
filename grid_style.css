@@ -18,6 +18,12 @@ body{
     font-size: 20px;
     margin: 0 auto;
 }
+
+.button{
+    border: 0;
+    outline: 0;
+}
+
 .nav-item {
     color: white !important;
 }
