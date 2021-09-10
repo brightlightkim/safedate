@@ -28,6 +28,11 @@ button.firstBtn:focus{
     color: white !important;
 }
 
+.bg-dark {
+  background-color: #f0483c !important;
+}
+
+
 .bg-primary {
   background-color: #f0483c !important;
   border-color: white;
