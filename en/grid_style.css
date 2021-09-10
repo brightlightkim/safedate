@@ -32,13 +32,6 @@ button.firstBtn:focus{
   background-color: #f0483c !important;
 }
 
-
-
-.bg-primary {
-  background-color: #f0483c !important;
-  border-color: white;
-}
-
 .dropdown-menu {
   background-color: #f0483c;
 }
