@@ -1,6 +1,6 @@
 # stopabuse
 
-<img width = 100% src = "./images/app_download_link.PNG"/>
+<img width = 100% src = "./en/images/app_download_link.PNG"/>
 
 This App intends to help all those who are abused mentally, verbally, and physically in the world.
 
