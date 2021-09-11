@@ -1,5 +1,7 @@
 # stopabuse
 
+<img width = auto src = "![app_download_link](https://user-images.githubusercontent.com/75151164/132942352-6886db03-70bd-4288-bcc1-64314bb444eb.PNG)"/>
+
 This App intends to help all those who are abused mentally, verbally, and physically in the world.
 
 The functions will be calling police when the app senses some warning voices. Then, it directly call the police or message them with the location they are at by using the GPS function.
